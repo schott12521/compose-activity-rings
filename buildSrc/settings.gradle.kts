@@ -6,4 +6,4 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "example-library-buildsrc"
+rootProject.name = "compose-activity-rings-buildsrc"

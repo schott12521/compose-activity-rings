@@ -61,7 +61,7 @@ kotlin {
 
         commonMain.dependencies {
             // Declare a dependency on the library
-            implementation(projects.exampleLibrary)
+            implementation(projects.composeActivityRings)
 
             implementation(compose.runtime)
             implementation(compose.ui)

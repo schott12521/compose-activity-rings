@@ -14,7 +14,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "kotlin-mutliplatform-template"
+rootProject.name = "compose-activity-rings-library"
 
 // Skip the example app when building the libraries
 if (gradle.startParameter.taskNames.none { it.startsWith(":example:composeApp") }) {
@@ -30,6 +30,6 @@ if (gradle.startParameter.taskNames.none { it.startsWith(":example:composeApp") 
 }
 
 include(
-    ":exampleLibrary",
+    ":compose-activity-rings",
     ":example:composeApp"
 )
