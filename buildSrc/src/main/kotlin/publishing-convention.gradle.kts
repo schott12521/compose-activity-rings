@@ -9,7 +9,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/schott12521/ExampleLibrary")
+            url = uri("https://maven.pkg.github.com/schott12521/compose-activity-rings")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
@@ -32,7 +32,7 @@ publishing.publications.withType<MavenPublication> {
     pom {
         name.set(project.name)
         description.set(publishProperties.getProperty("description"))
-        url.set("https://github.com/schott12521/ExampleLibrary")
+        url.set("https://github.com/schott12521/compose-activity-rings")
 
         licenses {
             license {
@@ -48,9 +48,9 @@ publishing.publications.withType<MavenPublication> {
             }
         }
         scm {
-            connection.set("scm:git:https://github.com/schott12521/ExampleLibrary.git")
-            developerConnection.set("scm:git:ssh://github.com/schott12521/ExampleLibrary.git")
-            url.set("https://github.com/schott12521/ExampleLibrary")
+            connection.set("scm:git:https://github.com/schott12521/compose-activity-rings.git")
+            developerConnection.set("scm:git:ssh://github.com/schott12521/compose-activity-rings.git")
+            url.set("https://github.com/schott12521/compose-activity-rings")
         }
     }
 }

@@ -92,7 +92,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.slapps.examplelibrary.${name.filter { it.isLetter() }}"
+    namespace = "com.slapps.compose.activityrings.${name.filter { it.isLetter() }}"
     compileSdk = (findProperty("android.compileSdk") as String).toInt()
 
     defaultConfig {
