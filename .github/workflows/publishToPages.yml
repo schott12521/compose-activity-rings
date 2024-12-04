@@ -27,7 +27,7 @@ jobs:
           gradle-version: 8.11.1
 
       - name: "🛠️ Build WasmJS App"
-        run: gradle :example:composeApp:wasmJsBrowserRun
+        run: gradle :example:composeApp:wasmJsBrowserProductionWebpack
 
       - name: "🚀 Deploy to GitHub Pages"
         uses: peaceiris/actions-gh-pages@v4
