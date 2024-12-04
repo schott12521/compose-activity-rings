@@ -5,7 +5,7 @@ import androidx.compose.ui.window.singleWindowApplication
 
 fun main() {
     val windowState = WindowState(
-        size = DpSize(400.dp, 800.dp)
+        size = DpSize(600.dp, 750.dp)
     )
 
     singleWindowApplication(windowState) {

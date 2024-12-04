@@ -1,9 +1,10 @@
 [versions]
-agp = "8.7.2"
+agp = "8.7.3"
 gradle = "8.7.3"
 kotlin = "2.0.21"
 androidx-activityCompose = "1.9.3"
 datetime = "0.6.1"
+multiplatformMarkdownRenderer = "0.27.0"
 serialization="1.7.3"
 jetbrainsCompose="1.7.1"
 
@@ -12,6 +13,8 @@ gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
 datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "datetime" }
+multiplatform-markdown-renderer-code = { module = "com.mikepenz:multiplatform-markdown-renderer-code", version.ref = "multiplatformMarkdownRenderer" }
+multiplatform-markdown-renderer-m3 = { module = "com.mikepenz:multiplatform-markdown-renderer-m3", version.ref = "multiplatformMarkdownRenderer" }
 serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
 
 [plugins]

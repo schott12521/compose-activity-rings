@@ -70,6 +70,9 @@ kotlin {
             implementation(compose.material3)
             implementation(libs.datetime)
             implementation(libs.serialization)
+
+            implementation(libs.multiplatform.markdown.renderer.m3)
+            implementation(libs.multiplatform.markdown.renderer.code)
         }
         androidMain.dependencies {
             implementation(compose.preview)
