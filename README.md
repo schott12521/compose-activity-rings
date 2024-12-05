@@ -29,3 +29,28 @@ compose-activity-rings = { group = "com.slapps.compose.activityrings", name = "c
 ## Try it
 
 Wanna see what the library feels like? The latest version builds and deploys the Kotlin/WasmJS target to github pages: https://schott12521.github.io/compose-activity-rings/
+
+## Docs
+
+`ActivityRing` can be created via:
+
+```
+ActivityRings(
+    gap: Dp,
+    size: Dp,
+    lineWidth: Dp,
+    animationSpec: AnimationSpec<Float> = tween(durationMillis = 350, easing = FastOutSlowInEasing),
+    vararg rings: Ring
+)
+```
+
+where `Ring` can be created via:
+
+```
+data class Ring(
+    val progress: Float,
+    val color: Color
+)
+```
+
+For more reference, check the example app usage [here](https://github.com/schott12521/compose-activity-rings/blob/main/example/composeApp/src/commonMain/kotlin/App.kt)
